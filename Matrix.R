@@ -159,9 +159,9 @@ det(a)
 solve(b)
 solve(matrix(sample(1:100,9),ncol=3))
 
-2x+y−2z=−1
-3x−3y−z=5
-x−2y+3z=6
+#2x+y−2z=−1
+#3x−3y−z=5
+#x−2y+3z=6
 
 
 A<-rbind(c(2,1,-2),c(3,-3,-1),c(1,-2,3))

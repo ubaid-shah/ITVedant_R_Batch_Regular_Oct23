@@ -17,7 +17,7 @@ lunch<-list(Suresh=c("Omlette","Fried Rice"),
             Mangesh=c("Lassi"),
             Bill=2000)
 
-
+lunch
 lunch[["Bill"]]
 
 lunch$Suresh
@@ -29,7 +29,7 @@ lunch[c('Naresh','Bill')]
 
 
 
-lunch$Naresh[-2]
+lunch$Naresh<-lunch$Naresh[-2]
 
 
 lunch$Naresh[2]<-"Pepsi"
